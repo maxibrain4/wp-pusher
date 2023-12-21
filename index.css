@@ -271,3 +271,15 @@ ul {
 /* .text-price {
   font: 14px;
 } */
+
+.TNC {
+  display: flex;
+  justify-content: center;
+}
+.last-text {
+  font-size: 10px;
+}
+.TOS {
+  color: #93b4c4;
+  padding-left: 3px;
+}
