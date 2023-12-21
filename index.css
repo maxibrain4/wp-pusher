@@ -7,11 +7,19 @@
 .container {
   width: 100%;
   background-color: hsl(204, 33%, 97%);
+  font-family: lato;
 }
 .card {
   border: 1p solid black;
   max-width: 1440px;
   margin: 0 auto;
+}
+.whole-box {
+  display: flex;
+  justify-content: space-between;
+}
+.first-box {
+  flex: 65%;
 }
 
 header {
@@ -59,24 +67,30 @@ li a {
 
 .pcard {
   background-color: white;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 700px;
-  height: 500px;
+  /* height: 500px; */
+  border-radius: 10px;
 }
 /* .whole-box {
   margin: 20px;
 } */
 .box {
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 .form-label {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .circle {
-  border: 1px solid #57b5f9;
+  border: 1px solid #548bc5;
   border-radius: 50%;
-  padding: 5px;
+  padding: 5px 10px;
+}
+.scircle {
+  border: 1px solid #548bc5;
+  border-radius: 50%;
+  padding: 1px 2px;
 }
 .box-name {
   display: flex;
@@ -84,10 +98,10 @@ li a {
   margin: 12px 0;
 }
 .firstname {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 .email-box {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 .input-box {
   width: 100%;
@@ -101,20 +115,22 @@ input {
   border-radius: 5px;
 }
 .box-name2 {
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 .cardnumber-box {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .first-box {
   margin: 20px;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 .box {
-  padding: 15px;
+  padding: 15px 0;
   margin-bottom: 10px;
   border-bottom: 1px solid #f6f8fb;
+  font-size: 20px;
+  font-weight: 600;
 }
 .label {
   margin: 10px 0;
@@ -134,4 +150,124 @@ button {
   background-color: #038e7d;
   border: none;
   border-radius: 3px;
+  color: #ffffff;
 }
+.downtext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.little-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* sidebar */
+.second-box {
+  /* border: 1px solid black; */
+  flex: 35%;
+  background-color: #1179bf;
+  color: #ffffff;
+  padding: 25px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* .sidebar-box {
+  margin: 20px;
+} */
+.digit {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+/* 
+ul {
+  list-style-image: url;
+} */
+
+.point {
+  display: flex;
+
+  align-items: center;
+  gap: 10px;
+}
+.bullet-points {
+  /* border: 1px solid red; */
+  margin: 20px 0;
+}
+
+.bullet-img {
+  width: 24px;
+  height: 24px;
+}
+
+.text-price {
+  /* border: 1px solid green; */
+}
+
+.person-image {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+.img-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.plan-digit {
+  /* border: 1px solid red; */
+  margin: 15px 0;
+}
+.plan-box {
+  /* border: 1px solid green; */
+}
+
+.text-price {
+  margin: 10px 0;
+}
+
+.testimony-text {
+  margin: 10px 0;
+  font-weight: 300;
+  font-style: italic;
+}
+.testimony {
+  margin-top: 30px;
+}
+.single-link {
+  color: #ffffff;
+  font-size: 14px;
+}
+.simple-text {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.downtext {
+  margin: 10px 0;
+  font-size: 12px;
+}
+.lbox {
+  /* border: 1px solid red; */
+  background-color: #b5bbc2;
+  color: #ffffff;
+  font-size: 12px;
+}
+.basic-text {
+  font-weight: 600;
+}
+.tet {
+  font-size: 14px;
+}
+.texty {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  padding-right: 50px;
+}
+/* .text-price {
+  font: 14px;
+} */

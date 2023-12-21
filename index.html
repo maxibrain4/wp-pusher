@@ -3,7 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Nunito+Sans:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="index.css" />
+
     <title>WP Pusher</title>
   </head>
   <body>
@@ -18,10 +25,10 @@
           </div>
           <nav class="nav-link">
             <ul class="main-link">
-              <li><a>Download</a></li>
-              <li><a>Learn more</a></li>
-              <li><a>Pricing</a></li>
-              <li><a>Help</a></li>
+              <li class="link"><a>Download</a></li>
+              <li class="link"><a>Learn more</a></li>
+              <li class="link"><a>Pricing</a></li>
+              <li class="link"><a>Help</a></li>
               <li class="active"><a>Account</a></li>
             </ul>
           </nav>
@@ -36,7 +43,7 @@
                   <div class="form-label">
                     <div class="label">
                       <span class="circle">1</span>
-                      <span>Your Basic Information</span>
+                      <span class="basic-text">Your Basic Information</span>
                     </div>
                     <div class="box-name">
                       <div class="firstname">
@@ -68,18 +75,13 @@
                 <div class="form-box2">
                   <div class="box-name2">
                     <div class="label">
-                      <span class="circle">1</span>
-                      <span>Your Payment Information</span>
+                      <span class="circle">2</span>
+                      <span class="basic-text">Your Payment Information</span>
                     </div>
                     <div class="cardnumber-box">
                       <p>Card Number</p>
                       <div class="input-box">
-                        <input
-                          type="text"
-                          name=""
-                          id=""
-                          placeholder="Janedeo@example.com"
-                        />
+                        <input type="text" name="" id="" />
                       </div>
                     </div>
                   </div>
@@ -88,14 +90,78 @@
                 <div class="button-box">
                   <button>Buy WP Pusher</button>
                 </div>
-                <div>
+                <div class="downtext">
                   <p>
+                    <span class="scircle">?</span>
                     <span>Need any help?</span> Don't hesiate to contact
                     suppport
                   </p>
                 </div>
+                <div>
+                  <div class="little-box">
+                    <span class="lbox">powered by <b>Stripe</b> </span>
+                  </div>
+                </div>
               </div>
-              <div class="second-box"></div>
+              <div class="second-box">
+                <div class="sidebar-box">
+                  <div class="plan-box">
+                    <p>Freelancer</p>
+                    <div class="plan-digit">
+                      <sup>$</sup>
+                      <span class="digit">99</span>
+                      <sub>/year</sub>
+                    </div>
+                    <p class="texty">Automatically renews after 1 year</p>
+                  </div>
+                </div>
+                <div class="bullet-points">
+                  <div class="point">
+                    <div class="image-box">
+                      <img src="/check.svg" alt="" class="bullet-img" />
+                    </div>
+                    <div class="text">
+                      <p>Use on 5 client sites</p>
+                    </div>
+                  </div>
+                  <div class="point">
+                    <div class="image-box">
+                      <img src="/check.svg" alt="" class="bullet-img" />
+                    </div>
+                    <div class="text">
+                      <p>Private repositories</p>
+                    </div>
+                  </div>
+                  <div class="point">
+                    <div class="image-box">
+                      <img src="/check.svg" alt="" class="bullet-img" />
+                    </div>
+                    <div class="text">
+                      <p>Email support</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-price">
+                  <p class="simple-text">Need <b>20</b> clients site?</p>
+                  <p>
+                    <a href="" class="single-link">Switch to the Agency plan</a>
+                  </p>
+                </div>
+
+                <div class="testimony">
+                  <p class="testimony-text">
+                    FTP is horrible to deal with <b> WP Pusher</b> solves that
+                    issue, and the customer support is awesome
+                  </p>
+                  <div class="img-text">
+                    <div>
+                      <img src="/person.jpeg" alt="" class="person-image" />
+                    </div>
+                    <p class="tet">Kirk Beard</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
